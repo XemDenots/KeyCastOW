@@ -9,8 +9,12 @@ keystroke visualizer for Windows, lets you easily display your keystrokes while 
 
 ## build
 
-  msbuild /p:platform=win32 /p:Configuration=Release
+* use CMake to generate visual studio files  
+* Build INSTALL to install in program files (run vs2017 as admin)
 
 ## License
 
 MIT License
+
+## This version
+Jorge Alberto Cervantes Montiel Jan 2019
