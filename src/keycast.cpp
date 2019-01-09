@@ -17,6 +17,11 @@ using namespace Gdiplus;
 
 #include "resource.h"
 #include "timer.h"
+
+//This manifest dependency was the only way to make settings screen doing ok. Are there other way? JACM 08Jan2018
+//https://social.msdn.microsoft.com/Forums/vstudio/en-US/bddad9ee-942b-477a-a3a0-18e14a995d89/64bit-manifest-problem-side-by-side-issue?forum=vcgeneral
+#pragma comment(linker,"/manifestdependency:\"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
+
 CTimer showTimer;
 CTimer previewTimer;
 

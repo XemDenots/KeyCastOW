@@ -1,0 +1,6 @@
+#Jorge Alberto Cervantes Montiel
+#08Ene2018
+#Excluding all of _build CMake generated directory
+_build
+#Exclude visual studio generated directory
+.vs
